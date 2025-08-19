@@ -1,7 +1,7 @@
 "use client";
 import { useState } from 'react';
 import { useWallet, useConnection } from '@solana/wallet-adapter-react';
-import { PublicKey, SystemProgram, Transaction, LAMPORTS_PER_SOL } from '@solana/web3.js';
+import { SystemProgram, Transaction, LAMPORTS_PER_SOL } from '@solana/web3.js';
 
 interface SendRedPacketProps {
   onClose: () => void;

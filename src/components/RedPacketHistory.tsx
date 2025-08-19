@@ -145,7 +145,7 @@ export default function RedPacketHistory({ isVisible }: RedPacketHistoryProps) {
             </div>
 
             <div className="bg-gray-50 rounded-xl p-3">
-              <p className="text-gray-700 text-sm mb-2">"{item.message}"</p>
+              <p className="text-gray-700 text-sm mb-2">&ldquo;{item.message}&rdquo;</p>
               
               {item.type === 'sent' && (
                 <div className="flex justify-between text-xs text-gray-500">

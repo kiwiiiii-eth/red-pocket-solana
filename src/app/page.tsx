@@ -14,7 +14,7 @@ const WalletMultiButton = dynamic(
 );
 
 export default function Home() {
-  const { publicKey, connected } = useWallet();
+  const { connected } = useWallet();
   const [activeTab, setActiveTab] = useState('home');
   const [showSendModal, setShowSendModal] = useState(false);
   const [showReceiveModal, setShowReceiveModal] = useState(false);
